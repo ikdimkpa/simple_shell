@@ -1,16 +1,17 @@
 #include <stdio.h>
+int betty_checks(void);
 
 /**
- * main - checks for days in the week.
+ * betty_checks - checks for days in the week.
  * Return: 0 on success.
  */
-int main(void)
+int betty_checks(void)
 {
 	unsigned int num;
 
 	do {
 		printf("Enter a number: ");
-		scanf("%d", &num);
+		scanf("%u", &num);
 
 		switch (num)
 		{
